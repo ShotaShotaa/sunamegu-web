@@ -1,6 +1,6 @@
 for (let i = 1; i <= 4; i++) {
     document.write('<div class="col-lo-4 col-sm-6">')
-    document.write(`<img src="./images/volunteer/image (${i}).jpg" alt="アルバイト情報">`)
+    document.write(`<img src="./images/volunteer/image (${i}).jpg" alt="ボランティア情報">`)
     document.write('</div>')
 }
 
