@@ -1,10 +1,10 @@
-for (let i = 1; i <= 0; i++) {
+for (let i = 1; i <= 3; i++) {
     document.write('<div class="col-lo-4 col-sm-6">')
     document.write(`<img src="./images/4-9/short/image (${i}).jpg" alt="アルバイト情報">`)
     document.write('</div>')
 }
 
-for (let i = 1; i <= 2; i++) {
+for (let i = 1; i <= 0; i++) {
     document.write('<div class="col-lo-4 col-sm-6">')
     document.write(`<img src="./images/4-2/short/image (${i}).jpg" alt="アルバイト情報">`)
     document.write('</div>')
