@@ -1,4 +1,4 @@
-for (let i = 1; i <= 1; i++) {
+for (let i = 1; i <= 3; i++) {
     document.write('<div class="col-lo-4 col-sm-6">')
     document.write(`<img src="./images/others/image (${i}).jpg" alt="その他のイベント">`)
     document.write('</div>')
