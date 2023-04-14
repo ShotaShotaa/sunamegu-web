@@ -11,14 +11,15 @@
 // }
 
 for (let i = 1; i <= 3; i++) {
-    document.write(`<div class="col-lo-4 col-sm-6">
+    const text = document.getElementById('short');
+    text.insertAdjacentHTML('afterbegin', `<div class="col-lo-4 col-sm-6">
     <picture>
     <source srcset="./images/4-9/short/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/4-9/short/image (${i}).jpg" media="(max-width:500px)">
     <source srcset="./images/4-9/short/image (${i}).webp" type="image/webp">
     <img src="./images/4-9/short/image (${i}).jpg" alt="アルバイト情報">
     </picture>
-    </div>`)
+    </div>`);
 }
 
 // for (let i = 1; i <= 3; i++) {

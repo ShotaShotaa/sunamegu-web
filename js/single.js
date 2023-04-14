@@ -11,7 +11,8 @@
 // }
 
 for (let i = 1; i <= 1; i++) {
-    document.write(`<div class="col-lo-4 col-sm-6">
+    const text = document.getElementById('single');
+    text.insertAdjacentHTML('afterbegin', `<div class="col-lo-4 col-sm-6">
     <picture>
     <source srcset="./images/single/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/single/image (${i}).jpg" media="(max-width:500px)">

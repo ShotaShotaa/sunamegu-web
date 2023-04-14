@@ -10,14 +10,15 @@
 //     document.write('</div>')
 // }
 for (let i = 1; i <= 3; i++) {
-    document.write(`<div class="col-lo-4 col-sm-6">
+    const text = document.getElementById('others');
+    text.insertAdjacentHTML('afterbegin', `<div class="col-lo-4 col-sm-6">
     <picture>
     <source srcset="./images/others/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/others/image (${i}).jpg" media="(max-width:500px)">
     <source srcset="./images/others/image (${i}).webp" type="image/webp">
     <img src="./images/others/image (${i}).jpg" alt="その他のイベント">
     </picture>
-    </div>`)
+    </div>`);
 }
 
 // for (let i = 1; i <= 3; i++) {
