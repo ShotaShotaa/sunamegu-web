@@ -199,9 +199,9 @@ dd{
 
 /* WebP未対応のブラウザ用のスタイル */
 .no-webp .element {
-  background-image: url("image.jpg");
+  background-image: url("../images/background.jpg");
 }
 /* WebP対応のブラウザ用のスタイル */
 .webp .element {
-  background-image: url("image.webp");
+  background-image: url("../images/background.webp");
 }

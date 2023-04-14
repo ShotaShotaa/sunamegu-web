@@ -102,8 +102,16 @@
           <dt>2023/1/15</dt>
           <dd>
             令和新時代創造県民運動活動表彰で、若者部門優秀賞かつ最優秀賞、とっとりSDGsアワード準グランプリの3つを受賞
-            <br />
-            <img class="award" src="images/award.jpg" alt="表彰状" />
+            <br /><picture>
+              <source
+                srcset="images/award.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source srcset="images/award.jpg" media="(max-width:500px)" />
+              <source srcset="images/award.webp" type="image/webp" />
+              <img class="award" src="images/award.jpg" alt="表彰状" />
+            </picture>
           </dd>
         </dl>
       </div>

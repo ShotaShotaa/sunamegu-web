@@ -89,17 +89,68 @@
     <!-- main begin -->
     <main>
       <div class="documents wrapper">
-        <img src="images/introduction.jpg" alt="「すなめぐ」とは？" />
-        <img src="images/life.jpg" alt="学生の生活実態" />
-        <img src="images/chance.jpg" alt="団体設立のきっかけ" />
-        <img src="images/ambition.jpg" alt="この活動に対する思い" />
+        <picture>
+          <source
+            srcset="images/introduction.webp"
+            media="(max-width:500px)"
+            type="image/webp"
+          />
+          <source srcset="images/introduction.jpg" media="(max-width:500px)" />
+          <source srcset="images/introduction.webp" type="image/webp" />
+          <img src="images/introduction.jpg" alt="「すなめぐ」とは？" />
+        </picture>
+        <picture>
+          <source
+            srcset="images/life.webp"
+            media="(max-width:500px)"
+            type="image/webp"
+          />
+          <source srcset="images/life.jpg" media="(max-width:500px)" />
+          <source srcset="images/life.webp" type="image/webp" />
+          <img src="images/life.jpg" alt="学生の生活実態" />
+        </picture>
+        <picture>
+          <source
+            srcset="images/chance.webp"
+            media="(max-width:500px)"
+            type="image/webp"
+          />
+          <source srcset="images/chance.jpg" media="(max-width:500px)" />
+          <source srcset="images/chance.webp" type="image/webp" />
+          <img src="images/chance.jpg" alt="団体設立のきっかけ" />
+        </picture>
+        <picture>
+          <source
+            srcset="images/ambition.webp"
+            media="(max-width:500px)"
+            type="image/webp"
+          />
+          <source srcset="images/ambition.jpg" media="(max-width:500px)" />
+          <source srcset="images/ambition.webp" type="image/webp" />
+          <img src="images/ambition.jpg" alt="この活動に対する思い" />
+        </picture>
       </div>
 
       <div class="wrapper">
         <h1>協賛企業</h1>
         <div class="row gy-3">
           <div class="col-lo-4 col-sm-6">
-            <img src="images/company/tokudashoten.jpg" alt="徳田商店" />
+            <picture>
+              <source
+                srcset="images/company/tokudashoten.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source
+                srcset="images/company/tokudashoten.jpg"
+                media="(max-width:500px)"
+              />
+              <source
+                srcset="images/company/tokudashoten.webp"
+                type="image/webp"
+              />
+              <img src="images/company/tokudashoten.jpg" alt="徳田商店" />
+            </picture>
           </div>
         </div>
       </div>
