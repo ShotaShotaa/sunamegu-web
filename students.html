@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
     <title>砂丘の恵みの納品依頼｜学生の方へ</title>
-    <link rel="icon" href="images/icon.jpg" />
+    <link rel="icon" href="images/icon.webp" />
     <link rel="stylesheet" href="css/html5reset-1.6.1.min.css" />
     <link rel="stylesheet" href="css/base.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,8 +45,17 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="home.html"
-            ><img class="icon" src="images/icon.jpg" alt="すなめぐ"
-          /></a>
+            ><picture>
+              <source
+                srcset="images/icon.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source srcset="images/icon.jpg" media="(max-width:500px)" />
+              <source srcset="images/icon.webp" type="image/webp" />
+              <img class="icon" src="images/icon.jpg" alt="すなめぐ" />
+            </picture>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
