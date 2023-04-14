@@ -16,5 +16,7 @@ for (let i = 1; i <= 1; i++) {
     <source srcset="./images/single/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/single/image (${i}).jpg" media="(max-width:500px)">
     <source srcset="./images/single/image (${i}).webp" type="image/webp">
-    <img src="./images/single/image (${i}).jpg" alt="アルバイト情報"> </div>`)
+    <img src="./images/single/image (${i}).jpg" alt="アルバイト情報">
+    </picture>
+    </div>`)
 }

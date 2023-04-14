@@ -4,7 +4,9 @@ for (let i = 1; i <= 33; i++) {
     <source srcset="./images/4-9/long/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/4-9/long/image (${i}).jpg" media="(max-width:500px)">
     <source srcset="./images/4-9/long/image (${i}).webp" type="image/webp">
-    <img src="./images/4-9/long/image (${i}).jpg" alt="アルバイト情報"> </div>`)
+    <img src="./images/4-9/long/image (${i}).jpg" alt="アルバイト情報">
+    </picture>
+    </div>`)
 }
 
 for (let i = 1; i <= 12; i++) {
@@ -13,5 +15,7 @@ for (let i = 1; i <= 12; i++) {
     <source srcset="./images/4-2/long/image (${i}).webp" media="(max-width:500px)" type="image/webp">
     <source srcset="./images/4-2/long/image (${i}).jpg" media="(max-width:500px)">
     <source srcset="./images/4-2/long/image (${i}).webp" type="image/webp">
-    <img src="./images/4-2/long/image (${i}).jpg" alt="アルバイト情報"> </div>`)
+    <img src="./images/4-2/long/image (${i}).jpg" alt="アルバイト情報">
+    </picture>
+    </div>`)
 }
