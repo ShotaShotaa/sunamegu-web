@@ -13,6 +13,7 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -198,5 +199,4 @@ dd {
 /* WebP対応のブラウザ用のスタイル */
 .webp .element {
   background-image: url("../images/background.webp");
-}
-/*# sourceMappingURL=base.css.map */
+}/*# sourceMappingURL=base.css.map */
