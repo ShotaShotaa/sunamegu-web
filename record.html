@@ -18,6 +18,7 @@
     <link rel="icon" href="images/icon.webp" />
     <link rel="stylesheet" href="css/html5reset-1.6.1.min.css" />
     <link rel="stylesheet" href="css/base.min.css" />
+    <link rel="preload" href="css/*.css" as="style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,7 +54,12 @@
               />
               <source srcset="images/icon.jpg" media="(max-width:500px)" />
               <source srcset="images/icon.webp" type="image/webp" />
-              <img class="icon" src="images/icon.jpg" alt="すなめぐ" />
+              <img
+                class="icon"
+                src="images/icon.jpg"
+                loading="lazy"
+                alt="すなめぐ"
+              />
             </picture>
           </a>
           <button
@@ -119,7 +125,12 @@
               />
               <source srcset="images/award.jpg" media="(max-width:500px)" />
               <source srcset="images/award.webp" type="image/webp" />
-              <img class="award" src="images/award.jpg" alt="表彰状" />
+              <img
+                class="award"
+                src="images/award.jpg"
+                loading="lazy"
+                alt="表彰状"
+              />
             </picture>
           </dd>
         </dl>

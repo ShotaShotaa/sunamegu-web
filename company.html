@@ -18,6 +18,7 @@
     <link rel="icon" href="images/icon.webp" />
     <link rel="stylesheet" href="css/html5reset-1.6.1.min.css" />
     <link rel="stylesheet" href="css/base.min.css" />
+    <link rel="preload" href="css/*.css" as="style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,7 +54,12 @@
               />
               <source srcset="images/icon.jpg" media="(max-width:500px)" />
               <source srcset="images/icon.webp" type="image/webp" />
-              <img class="icon" src="images/icon.jpg" alt="すなめぐ" />
+              <img
+                class="icon"
+                src="images/icon.jpg"
+                loading="lazy"
+                alt="すなめぐ"
+              />
             </picture>
           </a>
           <button
@@ -106,7 +112,11 @@
           />
           <source srcset="images/introduction.jpg" media="(max-width:500px)" />
           <source srcset="images/introduction.webp" type="image/webp" />
-          <img src="images/introduction.jpg" alt="「すなめぐ」とは？" />
+          <img
+            src="images/introduction.jpg"
+            loading="lazy"
+            alt="「すなめぐ」とは？"
+          />
         </picture>
         <picture>
           <source
@@ -116,7 +126,7 @@
           />
           <source srcset="images/life.jpg" media="(max-width:500px)" />
           <source srcset="images/life.webp" type="image/webp" />
-          <img src="images/life.jpg" alt="学生の生活実態" />
+          <img src="images/life.jpg" loading="lazy" alt="学生の生活実態" />
         </picture>
         <picture>
           <source
@@ -126,7 +136,11 @@
           />
           <source srcset="images/chance.jpg" media="(max-width:500px)" />
           <source srcset="images/chance.webp" type="image/webp" />
-          <img src="images/chance.jpg" alt="団体設立のきっかけ" />
+          <img
+            src="images/chance.jpg"
+            loading="lazy"
+            alt="団体設立のきっかけ"
+          />
         </picture>
         <picture>
           <source
@@ -136,7 +150,11 @@
           />
           <source srcset="images/ambition.jpg" media="(max-width:500px)" />
           <source srcset="images/ambition.webp" type="image/webp" />
-          <img src="images/ambition.jpg" alt="この活動に対する思い" />
+          <img
+            src="images/ambition.jpg"
+            loading="lazy"
+            alt="この活動に対する思い"
+          />
         </picture>
       </div>
 
@@ -158,7 +176,11 @@
                 srcset="images/company/tokudashoten.webp"
                 type="image/webp"
               />
-              <img src="images/company/tokudashoten.jpg" alt="徳田商店" />
+              <img
+                src="images/company/tokudashoten.jpg"
+                loading="lazy"
+                alt="徳田商店"
+              />
             </picture>
           </div>
         </div>

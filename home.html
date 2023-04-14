@@ -28,6 +28,7 @@
     <link rel="icon" href="images/icon.webp" />
     <link rel="stylesheet" href="css/html5reset-1.6.1.min.css" />
     <link rel="stylesheet" href="css/base.min.css" />
+    <link rel="preload" href="css/*.css" as="style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -63,7 +64,12 @@
               />
               <source srcset="images/icon.jpg" media="(max-width:500px)" />
               <source srcset="images/icon.webp" type="image/webp" />
-              <img class="icon" src="images/icon.jpg" alt="すなめぐ" />
+              <img
+                class="icon"
+                src="images/icon.jpg"
+                loading="lazy"
+                alt="すなめぐ"
+              />
             </picture>
           </a>
           <button
@@ -114,7 +120,11 @@
             media="(max-width:500px)"
           />
           <source srcset="images/砂丘の恵みの納品依頼.webp" type="image/webp" />
-          <img src="images/砂丘の恵みの納品依頼.jpg" alt="メインテーマ" />
+          <img
+            src="images/砂丘の恵みの納品依頼.jpg"
+            loading="lazy"
+            alt="メインテーマ"
+          />
         </picture>
       </div>
 
@@ -137,7 +147,11 @@
                   srcset="images/company/tokudashoten.webp"
                   type="image/webp"
                 />
-                <img src="images/company/tokudashoten.jpg" alt="徳田商店" />
+                <img
+                  src="images/company/tokudashoten.jpg"
+                  loading="lazy"
+                  alt="徳田商店"
+                />
               </picture>
             </div>
           </div>

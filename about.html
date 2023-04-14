@@ -18,6 +18,7 @@
     <link rel="icon" href="images/icon.webp" />
     <link rel="stylesheet" href="css/html5reset-1.6.1.min.css" />
     <link rel="stylesheet" href="css/base.min.css" />
+    <link rel="preload" href="css/*.css" as="style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,7 +54,12 @@
               />
               <source srcset="images/icon.jpg" media="(max-width:500px)" />
               <source srcset="images/icon.webp" type="image/webp" />
-              <img class="icon" src="images/icon.jpg" alt="すなめぐ" />
+              <img
+                class="icon"
+                loading="lazy"
+                src="images/icon.jpg"
+                alt="すなめぐ"
+              />
             </picture>
           </a>
           <button
@@ -93,93 +99,107 @@
     </header>
     <!-- header end -->
     <!-- main begin -->
-    <div class="documents wrapper">
-      <picture>
-        <source
-          srcset="images/pamphlet_page-0001.webp"
-          media="(max-width:500px)"
-          type="image/webp"
-        />
-        <source
-          srcset="images/pamphlet_page-0001.jpg"
-          media="(max-width:500px)"
-        />
-        <source srcset="images/pamphlet_page-0001.webp" type="image/webp" />
-        <img src="images/ambition.jpg" alt="この活動に対する思い" />
-        <img src="images/pamphlet_page-0001.jpg" alt="パンフレット1" />
-      </picture>
-      <picture>
-        <source
-          srcset="images/pamphlet_page-0002.webp"
-          media="(max-width:500px)"
-          type="image/webp"
-        />
-        <source
-          srcset="images/pamphlet_page-0002.jpg"
-          media="(max-width:500px)"
-        />
-        <source srcset="images/pamphlet_page-0002.webp" type="image/webp" />
-        <img src="images/pamphlet_page-0002.jpg" alt="パンフレット2" />
-      </picture>
-    </div>
-    <div class="wrapper">
-      <h1>各部門について</h1>
-      <h2>食料配布部門</h2>
+    <main>
       <div class="documents wrapper">
         <picture>
           <source
-            srcset="images/食料.webp"
+            srcset="images/pamphlet_page-0001.webp"
             media="(max-width:500px)"
             type="image/webp"
           />
-          <source srcset="images/食料.jpg" media="(max-width:500px)" />
-          <source srcset="images/食料.webp" type="image/webp" />
-          <img src="images/食料.jpg" alt="食料関係部門" />
-        </picture>
-      </div>
-      <h2>アルバイト・ボランティア関係部門</h2>
-      <div class="documents wrapper">
-        <picture>
           <source
-            srcset="images/アルバイト.webp"
+            srcset="images/pamphlet_page-0001.jpg"
             media="(max-width:500px)"
-            type="image/webp"
           />
-          <source srcset="images/アルバイト.jpg" media="(max-width:500px)" />
-          <source srcset="images/アルバイト.webp" type="image/webp" />
+          <source srcset="images/pamphlet_page-0001.webp" type="image/webp" />
           <img
-            src="images/アルバイト.jpg"
-            alt="アルバイト・ボランティア関係部門"
+            src="images/pamphlet_page-0001.jpg"
+            loading="lazy"
+            alt="パンフレット1"
           />
         </picture>
-      </div>
-      <h2>デザイン関係部門</h2>
-      <div class="documents wrapper">
         <picture>
           <source
-            srcset="images/デザイン.webp"
+            srcset="images/pamphlet_page-0002.webp"
             media="(max-width:500px)"
             type="image/webp"
           />
-          <source srcset="images/デザイン.jpg" media="(max-width:500px)" />
-          <source srcset="images/デザイン.webp" type="image/webp" />
-          <img src="images/デザイン.jpg" alt="デザイン関係部門" />
-        </picture>
-      </div>
-      <h2>農業関係部門</h2>
-      <div class="documents wrapper">
-        <picture>
           <source
-            srcset="images/農業.webp"
+            srcset="images/pamphlet_page-0002.jpg"
             media="(max-width:500px)"
-            type="image/webp"
           />
-          <source srcset="images/農業.jpg" media="(max-width:500px)" />
-          <source srcset="images/農業.webp" type="image/webp" />
-          <img src="images/農業.jpg" alt="農業関係部門" />
+          <source srcset="images/pamphlet_page-0002.webp" type="image/webp" />
+          <img
+            src="images/pamphlet_page-0002.jpg"
+            loading="lazy"
+            alt="パンフレット2"
+          />
         </picture>
       </div>
-    </div>
+      <div class="wrapper">
+        <h1>各部門について</h1>
+        <h2>食料配布部門</h2>
+        <div class="documents wrapper">
+          <picture>
+            <source
+              srcset="images/食料.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source srcset="images/食料.jpg" media="(max-width:500px)" />
+            <source srcset="images/食料.webp" type="image/webp" />
+            <img src="images/食料.jpg" loading="lazy" alt="食料関係部門" />
+          </picture>
+        </div>
+        <h2>アルバイト・ボランティア関係部門</h2>
+        <div class="documents wrapper">
+          <picture>
+            <source
+              srcset="images/アルバイト.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source srcset="images/アルバイト.jpg" media="(max-width:500px)" />
+            <source srcset="images/アルバイト.webp" type="image/webp" />
+            <img
+              src="images/アルバイト.jpg"
+              loading="lazy"
+              alt="アルバイト・ボランティア関係部門"
+            />
+          </picture>
+        </div>
+        <h2>デザイン関係部門</h2>
+        <div class="documents wrapper">
+          <picture>
+            <source
+              srcset="images/デザイン.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source srcset="images/デザイン.jpg" media="(max-width:500px)" />
+            <source srcset="images/デザイン.webp" type="image/webp" />
+            <img
+              src="images/デザイン.jpg"
+              loading="lazy"
+              alt="デザイン関係部門"
+            />
+          </picture>
+        </div>
+        <h2>農業関係部門</h2>
+        <div class="documents wrapper">
+          <picture>
+            <source
+              srcset="images/農業.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source srcset="images/農業.jpg" media="(max-width:500px)" />
+            <source srcset="images/農業.webp" type="image/webp" />
+            <img src="images/農業.jpg" loading="lazy" alt="農業関係部門" />
+          </picture>
+        </div>
+      </div>
+    </main>
     <!-- main end -->
     <!-- footer begin -->
     <footer class="py-4 mt-5 bg-dark text-center" id="footer">
