@@ -188,4 +188,15 @@ dd {
 }
 .sns a {
   margin: auto;
-}/*# sourceMappingURL=base.css.map */
+}
+
+/* WebP未対応のブラウザ用のスタイル */
+.no-webp .element {
+  background-image: url("image.jpg");
+}
+
+/* WebP対応のブラウザ用のスタイル */
+.webp .element {
+  background-image: url("image.webp");
+}
+/*# sourceMappingURL=base.css.map */

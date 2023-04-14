@@ -196,3 +196,12 @@ dd{
     margin: auto;
   }
 }
+
+/* WebP未対応のブラウザ用のスタイル */
+.no-webp .element {
+  background-image: url("image.jpg");
+}
+/* WebP対応のブラウザ用のスタイル */
+.webp .element {
+  background-image: url("image.webp");
+}
