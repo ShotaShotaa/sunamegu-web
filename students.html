@@ -131,13 +131,28 @@
         <div class="container mt-4">
           <div id="long" class="row gy-3">
             <div class="col-lo-4 col-sm-6">
-              <script type="text/javascript" defer src="js/long.js"></script>
-              <img
-                src="images/long/元氣亭バイト募集チラシ.jpg"
-                loading="lazy"
-                alt="アルバイト情報"
-              />
+              <picture>
+                <source
+                  srcset="images/long/元氣亭バイト募集チラシ.webp"
+                  media="(max-width:500px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="images/long/元氣亭バイト募集チラシ.jpg"
+                  media="(max-width:500px)"
+                />
+                <source
+                  srcset="images/.webp"
+                  type="image/long/元氣亭バイト募集チラシwebp"
+                />
+                <img
+                  src="images/long/元氣亭バイト募集チラシ.jpg"
+                  loading="lazy"
+                  alt="アルバイト情報"
+                />
+              </picture>
             </div>
+            <script type="text/javascript" defer src="js/long.js"></script>
           </div>
         </div>
         <div class="top"><a href="#">Topへ</a></div>
