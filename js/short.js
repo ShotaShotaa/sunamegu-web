@@ -36,6 +36,7 @@ picture.appendChild(source3);
 const img = document.createElement('img');
 img.setAttribute('src', `./images/4-9/short/image (${i}).jpg`);
 img.setAttribute('alt', '短期バイト');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);

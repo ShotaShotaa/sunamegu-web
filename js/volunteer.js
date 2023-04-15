@@ -36,6 +36,7 @@ picture.appendChild(source3);
 const img = document.createElement('img');
 img.setAttribute('src', `./images/volunteer/image (${i}).jpg`);
 img.setAttribute('alt', 'ボランティア情報');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);

@@ -23,7 +23,8 @@ picture.appendChild(source3);
 
 const img = document.createElement('img');
 img.setAttribute('src', `./images/4-9/long/image (${i}).jpg`);
-img.setAttribute('alt', 'アルバイト情報');
+    img.setAttribute('alt', 'アルバイト情報');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);
@@ -58,6 +59,7 @@ picture.appendChild(source3);
 const img = document.createElement('img');
 img.setAttribute('src', `./images/4-2/long/image (${i}).jpg`);
 img.setAttribute('alt', 'アルバイト情報');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);

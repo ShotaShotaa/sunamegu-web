@@ -35,6 +35,7 @@ picture.appendChild(source3);
 const img = document.createElement('img');
 img.setAttribute('src', `./images/others/image (${i}).jpg`);
 img.setAttribute('alt', 'その他イベント');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);

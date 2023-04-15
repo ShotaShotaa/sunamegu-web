@@ -36,6 +36,7 @@ picture.appendChild(source3);
 const img = document.createElement('img');
 img.setAttribute('src', `./images/single/image (${i}).jpg`);
 img.setAttribute('alt', '単発バイト');
+    img.setAttribute('loading', 'lazy');
 picture.appendChild(img);
 
 div.appendChild(picture);
