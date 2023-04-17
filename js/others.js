@@ -9,7 +9,7 @@
 //     document.write(`<img src="./images/4-2/short/image (${i}).jpg" alt="その他のイベント">`)
 //     document.write('</div>')
 // }
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 4; i++) {
     // 要素の作成
 const div = document.createElement('div');
 div.classList.add('col-lo-4', 'col-sm-6');
