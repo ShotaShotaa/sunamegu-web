@@ -42,179 +42,187 @@
     </script>
   </head>
   <body class="mv">
-    <!-- header begin -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html"
-            ><picture>
+    <div class="screen">
+      <!-- header begin -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"
+              ><picture>
+                <source
+                  srcset="images/icon.webp"
+                  media="(max-width:500px)"
+                  type="image/webp"
+                />
+                <source srcset="images/icon.jpg" media="(max-width:500px)" />
+                <source srcset="images/icon.webp" type="image/webp" />
+                <img
+                  class="icon"
+                  loading="lazy"
+                  src="images/icon.jpg"
+                  alt="すなめぐ"
+                />
+              </picture>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="students.html">学生の方へ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="company.html">企業の方へ</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >すなめぐとは</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="record.html">活動記録</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">お問い合わせ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- header end -->
+      <!-- main begin -->
+      <main>
+        <div class="documents wrapper">
+          <picture>
+            <source
+              srcset="images/pamphlet_page-0001.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source
+              srcset="images/pamphlet_page-0001.jpg"
+              media="(max-width:500px)"
+            />
+            <source srcset="images/pamphlet_page-0001.webp" type="image/webp" />
+            <img
+              src="images/pamphlet_page-0001.jpg"
+              loading="lazy"
+              alt="パンフレット1"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="images/pamphlet_page-0002.webp"
+              media="(max-width:500px)"
+              type="image/webp"
+            />
+            <source
+              srcset="images/pamphlet_page-0002.jpg"
+              media="(max-width:500px)"
+            />
+            <source srcset="images/pamphlet_page-0002.webp" type="image/webp" />
+            <img
+              src="images/pamphlet_page-0002.jpg"
+              loading="lazy"
+              alt="パンフレット2"
+            />
+          </picture>
+        </div>
+        <div class="wrapper">
+          <h1>各部門について</h1>
+          <h2>食料配布部門</h2>
+          <div class="documents wrapper">
+            <picture>
               <source
-                srcset="images/icon.webp"
+                srcset="images/食料.webp"
                 media="(max-width:500px)"
                 type="image/webp"
               />
-              <source srcset="images/icon.jpg" media="(max-width:500px)" />
-              <source srcset="images/icon.webp" type="image/webp" />
+              <source srcset="images/食料.jpg" media="(max-width:500px)" />
+              <source srcset="images/食料.webp" type="image/webp" />
+              <img src="images/食料.jpg" loading="lazy" alt="食料関係部門" />
+            </picture>
+          </div>
+          <h2>アルバイト・ボランティア関係部門</h2>
+          <div class="documents wrapper">
+            <picture>
+              <source
+                srcset="images/アルバイト.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source
+                srcset="images/アルバイト.jpg"
+                media="(max-width:500px)"
+              />
+              <source srcset="images/アルバイト.webp" type="image/webp" />
               <img
-                class="icon"
+                src="images/アルバイト.jpg"
                 loading="lazy"
-                src="images/icon.jpg"
-                alt="すなめぐ"
+                alt="アルバイト・ボランティア関係部門"
               />
             </picture>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="students.html">学生の方へ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="company.html">企業の方へ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html"
-                  >すなめぐとは</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="record.html">活動記録</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">お問い合わせ</a>
-              </li>
-            </ul>
+          </div>
+          <h2>デザイン関係部門</h2>
+          <div class="documents wrapper">
+            <picture>
+              <source
+                srcset="images/デザイン.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source srcset="images/デザイン.jpg" media="(max-width:500px)" />
+              <source srcset="images/デザイン.webp" type="image/webp" />
+              <img
+                src="images/デザイン.jpg"
+                loading="lazy"
+                alt="デザイン関係部門"
+              />
+            </picture>
+          </div>
+          <h2>農業関係部門</h2>
+          <div class="documents wrapper">
+            <picture>
+              <source
+                srcset="images/農業.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source srcset="images/農業.jpg" media="(max-width:500px)" />
+              <source srcset="images/農業.webp" type="image/webp" />
+              <img src="images/農業.jpg" loading="lazy" alt="農業関係部門" />
+            </picture>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- header end -->
-    <!-- main begin -->
-    <main>
-      <div class="documents wrapper">
-        <picture>
-          <source
-            srcset="images/pamphlet_page-0001.webp"
-            media="(max-width:500px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/pamphlet_page-0001.jpg"
-            media="(max-width:500px)"
-          />
-          <source srcset="images/pamphlet_page-0001.webp" type="image/webp" />
-          <img
-            src="images/pamphlet_page-0001.jpg"
-            loading="lazy"
-            alt="パンフレット1"
-          />
-        </picture>
-        <picture>
-          <source
-            srcset="images/pamphlet_page-0002.webp"
-            media="(max-width:500px)"
-            type="image/webp"
-          />
-          <source
-            srcset="images/pamphlet_page-0002.jpg"
-            media="(max-width:500px)"
-          />
-          <source srcset="images/pamphlet_page-0002.webp" type="image/webp" />
-          <img
-            src="images/pamphlet_page-0002.jpg"
-            loading="lazy"
-            alt="パンフレット2"
-          />
-        </picture>
-      </div>
-      <div class="wrapper">
-        <h1>各部門について</h1>
-        <h2>食料配布部門</h2>
-        <div class="documents wrapper">
-          <picture>
-            <source
-              srcset="images/食料.webp"
-              media="(max-width:500px)"
-              type="image/webp"
-            />
-            <source srcset="images/食料.jpg" media="(max-width:500px)" />
-            <source srcset="images/食料.webp" type="image/webp" />
-            <img src="images/食料.jpg" loading="lazy" alt="食料関係部門" />
-          </picture>
+      </main>
+      <!-- main end -->
+      <!-- footer begin -->
+      <footer class="py-4 mt-5 bg-dark text-center" id="footer">
+        <div class="container">
+          <p class="text-white-50 small">砂丘の恵みの納品依頼</p>
         </div>
-        <h2>アルバイト・ボランティア関係部門</h2>
-        <div class="documents wrapper">
-          <picture>
-            <source
-              srcset="images/アルバイト.webp"
-              media="(max-width:500px)"
-              type="image/webp"
-            />
-            <source srcset="images/アルバイト.jpg" media="(max-width:500px)" />
-            <source srcset="images/アルバイト.webp" type="image/webp" />
-            <img
-              src="images/アルバイト.jpg"
-              loading="lazy"
-              alt="アルバイト・ボランティア関係部門"
-            />
-          </picture>
-        </div>
-        <h2>デザイン関係部門</h2>
-        <div class="documents wrapper">
-          <picture>
-            <source
-              srcset="images/デザイン.webp"
-              media="(max-width:500px)"
-              type="image/webp"
-            />
-            <source srcset="images/デザイン.jpg" media="(max-width:500px)" />
-            <source srcset="images/デザイン.webp" type="image/webp" />
-            <img
-              src="images/デザイン.jpg"
-              loading="lazy"
-              alt="デザイン関係部門"
-            />
-          </picture>
-        </div>
-        <h2>農業関係部門</h2>
-        <div class="documents wrapper">
-          <picture>
-            <source
-              srcset="images/農業.webp"
-              media="(max-width:500px)"
-              type="image/webp"
-            />
-            <source srcset="images/農業.jpg" media="(max-width:500px)" />
-            <source srcset="images/農業.webp" type="image/webp" />
-            <img src="images/農業.jpg" loading="lazy" alt="農業関係部門" />
-          </picture>
-        </div>
-      </div>
-    </main>
-    <!-- main end -->
-    <!-- footer begin -->
-    <footer class="py-4 mt-5 bg-dark text-center" id="footer">
-      <div class="container">
-        <p class="text-white-50 small">砂丘の恵みの納品依頼</p>
-      </div>
-    </footer>
-    <!-- footer end -->
+      </footer>
+      <!-- footer end -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="modernizr-custom.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+      <script src="modernizr-custom.js"></script>
+    </div>
   </body>
 </html>
