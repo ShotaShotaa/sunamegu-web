@@ -1,4 +1,3 @@
-$(document).on('turbolinks:load', function () {
 	new function () {
 
 		var footerId = "footer";
@@ -62,4 +61,3 @@ $(document).on('turbolinks:load', function () {
 		addEvent(window, "resize", footerFixed);
 
 	}
-});
