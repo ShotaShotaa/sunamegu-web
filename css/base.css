@@ -8,10 +8,6 @@ body {
   font-family: "Yuji Syuku", serif;
   color: #3A2B27;
   line-height: 1.5;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100%;
-  min-height: 100vh;
 }
 
 .screen {
