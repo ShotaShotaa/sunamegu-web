@@ -43,174 +43,169 @@
     </script>
   </head>
   <body class="mv">
-    <div class="screen">
-      <!-- header begin -->
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="home.html"
-              ><picture>
+    <!-- header begin -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"
+            ><picture>
+              <source
+                srcset="images/icon.webp"
+                media="(max-width:500px)"
+                type="image/webp"
+              />
+              <source srcset="images/icon.jpg" media="(max-width:500px)" />
+              <source srcset="images/icon.webp" type="image/webp" />
+              <img
+                class="icon"
+                src="images/icon.jpg"
+                loading="lazy"
+                alt="すなめぐ"
+              />
+            </picture>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="students.html">学生の方へ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="company.html">企業の方へ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">すなめぐとは</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="record.html">活動記録</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >お問い合わせ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <!-- main begin -->
+    <main>
+      <div class="wrapper">
+        <h1>お問い合わせ</h1>
+        <h2>メールアドレス</h2>
+        <p class="information">sakyuumegumi@gmail.com</p>
+        <h2>SNS</h2>
+        <div class="information">
+          <div class="sns">
+            <div class="flex">
+              <picture>
                 <source
-                  srcset="images/icon.webp"
+                  srcset="images/QR_LINE.webp"
                   media="(max-width:500px)"
                   type="image/webp"
                 />
-                <source srcset="images/icon.jpg" media="(max-width:500px)" />
-                <source srcset="images/icon.webp" type="image/webp" />
+                <source srcset="images/QR_LINE.jpg" media="(max-width:500px)" />
+                <source srcset="images/QR_LINE.webp" type="image/webp" />
                 <img
-                  class="icon"
-                  src="images/icon.jpg"
+                  class="qr"
+                  src="images/QR_LINE.jpg"
                   loading="lazy"
-                  alt="すなめぐ"
+                  alt="LINEのQRコード"
                 />
               </picture>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="students.html">学生の方へ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="company.html">企業の方へ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">すなめぐとは</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="record.html">活動記録</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="contact.html"
-                    >お問い合わせ</a
-                  >
-                </li>
-              </ul>
+
+              <a class="url" href="https://page.line.me/296lnbtf">公式LINE</a>
             </div>
-          </div>
-        </nav>
-      </header>
-      <!-- header end -->
-      <!-- main begin -->
-      <main>
-        <div class="wrapper">
-          <h1>お問い合わせ</h1>
-          <h2>メールアドレス</h2>
-          <p class="information">sakyuumegumi@gmail.com</p>
-          <h2>SNS</h2>
-          <div class="information">
-            <div class="sns">
-              <div class="flex">
-                <picture>
-                  <source
-                    srcset="images/QR_LINE.webp"
-                    media="(max-width:500px)"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="images/QR_LINE.jpg"
-                    media="(max-width:500px)"
-                  />
-                  <source srcset="images/QR_LINE.webp" type="image/webp" />
-                  <img
-                    class="qr"
-                    src="images/QR_LINE.jpg"
-                    loading="lazy"
-                    alt="LINEのQRコード"
-                  />
-                </picture>
+            <div class="flex">
+              <picture>
+                <source
+                  srcset="images/QR_twitter.webp"
+                  media="(max-width:500px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="images/QR_twitter.jpg"
+                  media="(max-width:500px)"
+                />
+                <source srcset="images/QR_twitter.webp" type="image/webp" />
+                <img
+                  class="qr"
+                  src="images/QR_twitter.jpg"
+                  loading="lazy"
+                  alt="TwitterのQRコード"
+                />
+              </picture>
 
-                <a class="url" href="https://page.line.me/296lnbtf">公式LINE</a>
-              </div>
-              <div class="flex">
-                <picture>
-                  <source
-                    srcset="images/QR_twitter.webp"
-                    media="(max-width:500px)"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="images/QR_twitter.jpg"
-                    media="(max-width:500px)"
-                  />
-                  <source srcset="images/QR_twitter.webp" type="image/webp" />
-                  <img
-                    class="qr"
-                    src="images/QR_twitter.jpg"
-                    loading="lazy"
-                    alt="TwitterのQRコード"
-                  />
-                </picture>
+              <a class="url" href="https://twitter.com/sunamegu_megumi"
+                >Twitter</a
+              >
+            </div>
+            <div class="flex">
+              <picture>
+                <source
+                  srcset="images/sunagemu_megumi_qr.webp"
+                  media="(max-width:500px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="images/sunagemu_megumi_qr.jpg"
+                  media="(max-width:500px)"
+                />
+                <source
+                  srcset="images/sunagemu_megumi_qr.webp"
+                  type="image/webp"
+                />
+                <img
+                  class="qr"
+                  src="images/sunagemu_megumi_qr.jpg"
+                  loading="lazy"
+                  alt="InstagramのQRコード"
+                />
+              </picture>
 
-                <a class="url" href="https://twitter.com/sunamegu_megumi"
-                  >Twitter</a
-                >
-              </div>
-              <div class="flex">
-                <picture>
-                  <source
-                    srcset="images/sunagemu_megumi_qr.webp"
-                    media="(max-width:500px)"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="images/sunagemu_megumi_qr.jpg"
-                    media="(max-width:500px)"
-                  />
-                  <source
-                    srcset="images/sunagemu_megumi_qr.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    class="qr"
-                    src="images/sunagemu_megumi_qr.jpg"
-                    loading="lazy"
-                    alt="InstagramのQRコード"
-                  />
-                </picture>
-
-                <a class="url" href="https://www.instagram.com/sunagemu_megumi/"
-                  >Instagram</a
-                >
-              </div>
+              <a class="url" href="https://www.instagram.com/sunagemu_megumi/"
+                >Instagram</a
+              >
             </div>
           </div>
         </div>
-        <div class="wrapper">
-          <h2>ホームページ制作</h2>
-          <div class="infomation">
-            <p>松園</p>
-          </div>
+      </div>
+      <div class="wrapper">
+        <h2>ホームページ制作</h2>
+        <div class="infomation">
+          <p>松園</p>
         </div>
-      </main>
-      <!-- main end -->
-      <!-- footer begin -->
-      <footer class="py-4 mt-5 bg-dark text-center" id="footer">
-        <div class="container">
-          <p class="text-white-50 small">砂丘の恵みの納品依頼</p>
-        </div>
-      </footer>
-      <!-- footer end -->
+      </div>
+    </main>
+    <!-- main end -->
+    <!-- footer begin -->
+    <footer class="py-4 mt-5 bg-dark text-center" id="footer">
+      <div class="container">
+        <p class="text-white-50 small">砂丘の恵みの納品依頼</p>
+      </div>
+    </footer>
+    <!-- footer end -->
 
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"
-      ></script>
-      <script src="modernizr-custom.js"></script>
-    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="modernizr-custom.js"></script>
   </body>
 </html>
