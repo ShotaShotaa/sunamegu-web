@@ -1,62 +1,62 @@
+for (let i = 1; i <= 20; i++) {
+  // div要素を作成する
+  const div = document.createElement("div");
+  div.classList.add("col-lo-4", "col-sm-6");
+
+  // img要素を作成する
+  const img = document.createElement("img");
+  img.setAttribute("src", `images/5-22/long/image (${i}).webp`);
+  img.setAttribute("loading", "lazy");
+  img.setAttribute("alt", "アルバイト情報");
+
+  // div要素の子要素としてimg要素を追加する
+  div.appendChild(img);
+
+  // long IDを持つ要素を取得する
+  const longElement = document.getElementById("long");
+
+  // long要素の子要素としてdiv要素を追加する
+  longElement.appendChild(div);
+}
+
 for (let i = 1; i <= 27; i++) {
-    // div要素を作成する
-    const div = document.createElement('div');
-    div.classList.add('col-lo-4', 'col-sm-6');
+  // div要素を作成する
+  const div = document.createElement("div");
+  div.classList.add("col-lo-4", "col-sm-6");
 
-    // img要素を作成する
-    const img = document.createElement('img');
-    img.setAttribute('src', `images/5-15/long/image (${i}).webp`);
-    img.setAttribute('loading', 'lazy');
-    img.setAttribute('alt', 'アルバイト情報');
+  // img要素を作成する
+  const img = document.createElement("img");
+  img.setAttribute("src", `images/5-15/long/image (${i}).webp`);
+  img.setAttribute("loading", "lazy");
+  img.setAttribute("alt", "アルバイト情報");
 
-    // div要素の子要素としてimg要素を追加する
-    div.appendChild(img);
+  // div要素の子要素としてimg要素を追加する
+  div.appendChild(img);
 
-    // long IDを持つ要素を取得する
-    const longElement = document.getElementById('long');
+  // long IDを持つ要素を取得する
+  const longElement = document.getElementById("long");
 
-    // long要素の子要素としてdiv要素を追加する
-    longElement.appendChild(div);
+  // long要素の子要素としてdiv要素を追加する
+  longElement.appendChild(div);
 }
 
 for (let i = 1; i <= 29; i++) {
-    // div要素を作成する
-    const div = document.createElement('div');
-    div.classList.add('col-lo-4', 'col-sm-6');
+  // div要素を作成する
+  const div = document.createElement("div");
+  div.classList.add("col-lo-4", "col-sm-6");
 
-    // img要素を作成する
-    const img = document.createElement('img');
-    img.setAttribute('src', `images/5-8/long/image (${i}).webp`);
-    img.setAttribute('loading', 'lazy');
-    img.setAttribute('alt', 'アルバイト情報');
+  // img要素を作成する
+  const img = document.createElement("img");
+  img.setAttribute("src", `images/5-8/long/image (${i}).webp`);
+  img.setAttribute("loading", "lazy");
+  img.setAttribute("alt", "アルバイト情報");
 
-    // div要素の子要素としてimg要素を追加する
-    div.appendChild(img);
+  // div要素の子要素としてimg要素を追加する
+  div.appendChild(img);
 
-    // long IDを持つ要素を取得する
-    const longElement = document.getElementById('long');
+  // long IDを持つ要素を取得する
+  const longElement = document.getElementById("long");
 
-    // long要素の子要素としてdiv要素を追加する
-    longElement.appendChild(div);
-}
-
-for (let i = 1; i <= 3; i++) {
-    // div要素を作成する
-    const div = document.createElement('div');
-    div.classList.add('col-lo-4', 'col-sm-6');
-
-    // img要素を作成する
-    const img = document.createElement('img');
-    img.setAttribute('src', `images/5-1/long/image (${i}).webp`);
-    img.setAttribute('loading', 'lazy');
-    img.setAttribute('alt', 'アルバイト情報');
-
-    // div要素の子要素としてimg要素を追加する
-    div.appendChild(img);
-
-    // long IDを持つ要素を取得する
-    const longElement = document.getElementById('long');
-
-    // long要素の子要素としてdiv要素を追加する
-    longElement.appendChild(div);
+  // long要素の子要素としてdiv要素を追加する
+  longElement.appendChild(div);
 }
