@@ -1,4 +1,4 @@
-for (let i = 1; i <= 6; i++) {
+for (let i = 1; i <= 4; i++) {
   // div要素を作成する
   const div = document.createElement("div");
   div.classList.add("col-lo-4", "col-sm-6");
