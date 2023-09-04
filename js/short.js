@@ -26,7 +26,7 @@ for (let i = 1; i <= 2; i++) {
 
   // img要素を作成する
   const img = document.createElement("img");
-  img.setAttribute("src", `images/8-28/Sshort/image (${i}).webp`);
+  img.setAttribute("src", `images/8-28/short/image (${i}).webp`);
   img.setAttribute("loading", "lazy");
   img.setAttribute("alt", "アルバイト情報");
 
